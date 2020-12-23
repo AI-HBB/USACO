@@ -8,7 +8,7 @@ int main() {
   }
   for(int i=0; i<n; i++){
    for(int k=i; k<n; k++){
-     float test=0,nwlf;
+     float test=0,nwlf; // nwlf == number we looking for
      length=0;
      for(int z=i; z<=k; z++){
       test+=num[z];
