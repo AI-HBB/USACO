@@ -11,7 +11,7 @@ for(int i=0; i<7; i++){
 sort(num, num+7);
 a=num[0];
 b=num[1];
-c=num[6]-b-a; // We need to subtract b first because b might be bigger than a;
+c=num[6]-b-a; // We need to subtract b first because b might be bigger than a
 cout << a << " " << b << " " << c;
 
 }
